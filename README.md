@@ -1,5 +1,4 @@
-# PLP-Week3_Assignment Price Calculator
-# Discount Calculator
+# PLP-Week3_Assignment Discount Calculator
 
 This program calculates the final price of an item after applying a discount percentage if the discount is 20% or more. It takes user input for the original price and discount percentage and performs the necessary calculations.
 
