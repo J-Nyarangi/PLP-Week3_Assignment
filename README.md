@@ -1,1 +1,1 @@
-# PLP-Week3_Assignment
+# PLP-Week3_Assignment Price Calculator
