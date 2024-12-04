@@ -30,37 +30,6 @@ This program calculates the final price of an item after applying a discount per
 
 ---
 
-## Code Explanation
-
-### Function: `calculate_discount(price, discount_percent)`
-- **Parameters**:
-  - `price`: The original price of the item (float).
-  - `discount_percent`: The discount percentage (float).
-- **Logic**:
-  - If `discount_percent >= 20`, calculate the discounted price using the formula:
-    \[
-    \text{final\_price} = \text{price} - (\text{price} \times \frac{\text{discount\_percent}}{100})
-    \]
-  - Otherwise, return the original price.
-
-### User Interaction
-- Prompts the user for:
-  - Original price (`original_price`).
-  - Discount percentage (`discount_percent`).
-- Calls `calculate_discount` to compute the final price.
-
-### Output
-- If a discount is applied, it prints:
-  ```
-  The final price after applying the discount is: <final_price>
-  ```
-- If no discount is applied, it prints:
-  ```
-  No discount applied. The original price is: <original_price>
-  ```
-
----
-
 ## How to Run
 1. Save the code to a file (e.g., `discount_calculator.py`).
 2. Open a terminal and navigate to the file's location.
